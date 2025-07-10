@@ -1,4 +1,4 @@
-# CRUD Java
+# Cadastro de Cliente - CRUD Java
 
 Aplicação desktop simples em Java com NetBeans que faz operações CRUD (Create, Read, Update, Delete) em uma entidade `Cliente`.
 
