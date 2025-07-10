@@ -151,21 +151,33 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Listar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBListarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBAlterar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Alterar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBAlterarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBExcluir">
       <Properties>
         <Property name="text" type="java.lang.String" value="Excluir"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBExcluirActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBConsultar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Consultar"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBConsultarActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jBLimpar">
       <Properties>
